@@ -1,0 +1,59 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:gravity="center_vertical|top"
+
+    tools:context=".MainActivity">
+
+    <TextView android:text="@string/My_Apps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:layout_gravity="center"
+        android:textColor="#0D47A1"
+        android:layout_marginBottom="25dp"
+        />
+
+    <Button
+        style="@style/Button_Style"
+        android:onClick="Spotify"
+        android:text="@string/Spotify_streamer"
+        />
+
+    <Button
+        style="@style/Button_Style"
+        android:onClick="Scores"
+        android:text="@string/Scores_app"
+        />
+
+    <Button
+        style="@style/Button_Style"
+        android:onClick="Library"
+        android:text="@string/Library_app"
+        />
+
+    <Button
+        style="@style/Button_Style"
+        android:onClick="Build"
+        android:text="@string/build_it_bigger"
+        />
+
+    <Button
+        style="@style/Button_Style"
+        android:onClick="Bacon"
+        android:text="@string/Bacon_reader"
+        />
+
+    <Button
+        style="@style/Button_Style"
+        android:onClick="Capstone"
+        android:text="@string/Capstone_my_own_app"
+        android:background="#B2FF59"
+        android:textColor="#000"
+        />
+
+</LinearLayout>
